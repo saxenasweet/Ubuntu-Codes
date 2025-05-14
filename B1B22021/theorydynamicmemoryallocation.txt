@@ -1,0 +1,22 @@
+//Types of Memory Allocation Techniques:
+//a. Dynamic Memory Allocation
+//b. static Memory Allocation
+
+//Static Memory Allocation - memory allocation is fixed at compile time
+
+//Dynamic Memory Allocation - memory allocation is done at run time
+
+//Static Memory Allocation - e.g. int a[10] ->memory (40 bytes) will be allocated
+//when the program runs and can not be changed till the program ends!
+
+//Static Memory Allocation leads to wastage of memory
+
+//Dynamic Memory Allocation is efficient utilization of memory as memory can
+//be allocated,deallocated and even reallocated at run time
+
+//For dynamic memory allocation, the header file stdlib.h is used!
+//For dynamic memory allocation, the following functions are used:
+//1. malloc()
+//2. calloc()
+//3. realloc()
+//4. free()

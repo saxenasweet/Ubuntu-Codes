@@ -1,0 +1,7 @@
+//A structure is a collection of dissimilar data type elements
+#include<stdio.h>
+void main(void)
+{
+struct student
+{
+char 

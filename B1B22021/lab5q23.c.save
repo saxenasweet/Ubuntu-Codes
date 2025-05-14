@@ -1,0 +1,16 @@
+//Decimal to Binary
+#include<stdio.h>
+void main(void)
+{
+int d,dt,b=0;
+printf("Enter a number in decimal?");
+scanf("%d",&d);
+dt=d;
+while(dt>0)
+{
+b=b*10+(dt%2);
+dt=dt/2;
+}
+printf("%d\n",b);
+}
+

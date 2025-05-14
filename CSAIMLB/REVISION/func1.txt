@@ -1,0 +1,30 @@
+Q.1 How many ways can you call a function?
+1. Call by value
+
+a=func(var1)
+
+Define a function:
+<return_type> Func_name (<Var List>)
+
+2. Call by reference
+b=func(&val1)
+
+Definition of a function:
+<return_type> Func_name(<*Pointer Variable List>)
+
+
+
+Q.2 How can you define a function?
+There are 4 ways :
+1. 
+Nothing to return and Nothing to Accept
+void func_name(void)
+2.
+Nothing to return and something to Accept
+void func_name(<Variable List>)
+3.
+Something to return and Nothing to Accept
+<data_type> func_name(void)
+4.
+Something to return and something to Accept
+<data_type> func_name(<Variable_List>)

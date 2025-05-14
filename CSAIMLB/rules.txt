@@ -1,0 +1,12 @@
+Rules of Naming Variables
+1. A variable name must always start with either an alphabet or
+an underscore
+2. A variable name can have numbers, alphabets and underscore
+3. A variable name can not be a keyword
+4. A variable name is case sensitive
+
+int float -> invalid because float is a keyword
+int f,F -> variable names are case sensitive
+int __abc; -> valid
+int _12; ->valid
+int ab+c; ->invalid

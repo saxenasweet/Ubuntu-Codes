@@ -1,0 +1,9 @@
+To solve the too much milk problem, mom and dad decide to lock the fridge.
+
+There is only one key to open the lock, the one who gets the key can 
+check the fridge. That is to say, if mom gets the key and checks fridge,
+dad can not open the fridge until mom releases the key. Mom will releases
+the key until she ensures there is milk in fridge. 
+
+In mom_sol.c and dad_sol.c, we use semaphore to implement the key. 
+Read the following programs and run them to see what will happen.

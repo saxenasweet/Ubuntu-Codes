@@ -1,0 +1,11 @@
+The too much milk problem 
+
+Your family drink milk every morning. 
+Mom and Dad are all used to checking the fridge when they arrive home. 
+If milk run out, he or she will leave home to buy milk. 
+The fridge is small in your home that only one bottle of milk can be put
+in it at a time. 
+Mom and Dad always arrive home at different time. 
+mom.c and dad.c are two programs that simulate the above situation. 
+When process mom or dad buys a bottle of milk, it writes string "milk" 
+to a file fridge (the file is empty at the beginning).

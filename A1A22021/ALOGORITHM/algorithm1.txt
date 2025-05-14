@@ -1,0 +1,65 @@
+
+Write an algorithm to print greatest of 3 numbers
+
+Algorithm: Print greatest of 2 numbers
+Step 1: Input a
+Step 2: Input b
+Step 3: if a > b then goto Step 7 
+Step 4: if b > a then goto Step 9
+Step 5: Print "BOTH NUMBERS ARE EQUAL"
+Step 6: Goto goto Step 10
+Step 7: Print "A is greatest"
+Step 8: Goto Step 10
+Step 9: Print "B is greatest"
+Step 10: END
+
+
+Algorithm to print greatest of 3 numbers
+
+Algorithm: Greatest of 3 numbers
+Step 1: Input A
+Step 2: Input B
+Step 3: Input C
+Step 4: If A>=B and A>=C then PRINT "A IS GREATEST" and  goto Step 7 
+Step 5: If B>=C then PRINT "B IS GREATEST" and goto Step 7
+Step 6: Print "C Is GREATEST"
+Step 7: END
+
+Write a code in C to check if a number is a Fibonacci Term or not?
+
+
+Write an algorithm to generate FIBONACCI Series up to N terms
+Fibonacci Series: 1,1,2,3,5,8,13,21,....upto 'N' terms
+Algorithm: Generate FIBONACCI Series upto N Terms
+Step 1: Input N
+Step 2: F=1
+Step 3: S=1
+Step 4: If n is equal to 1 print F and goto Step 14 
+Step 5: If n is equal to 2 print F , S and goto Step 14
+Step 6:Print F,S
+Step 7: N=N-2
+Step 8: T=F+S
+Step 9: Print T
+Step 10: F=S
+Step 11:S=T
+Step 12: N=N-1
+Step 13: If N>0 Goto Step 8
+Step 14: END
+
+Write an algorithm to print Factorial of a number
+Algorithm: Calculate Factorial of a number
+Step 1: Input N (=4)
+Step 2: F=1
+Step 3: C=1
+Step 4: F=F*C (=1)(=2)(=6)(=24)
+Step 5: C=C+1 (=2)(=3)(=4)(=5)
+Step 6: If C<=N goto Step 4
+Step 7: Print F
+Step 8: END
+
+Question: Which algorithm is better?
+->Memory Storage Consumption ?
+->Excution Time?
+Space Time Complexity
+Space Time Tradeoff
+Mathmatical Notations : Big O notation

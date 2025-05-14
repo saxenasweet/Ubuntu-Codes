@@ -1,0 +1,23 @@
+#include<stdio.h>
+void main(void)
+{
+int a[10]={9,7,6,5,4,3,2,2,1,0};
+int i,j,k,temp;
+for(i=0;i<10;i++)
+{
+for(j=i-1;j>=0;j--)
+{
+if(a[i]<a[j])
+{
+temp=a[i];
+for(k=i-1;k>j;k--)
+  a[k+1]=a[k];
+a[j]=temp;
+printf("Iteration %d\n",i);
+}
+}
+}
+for(i=0;i<10;i++)
+ printf("%d ",a[i]);
+}
+

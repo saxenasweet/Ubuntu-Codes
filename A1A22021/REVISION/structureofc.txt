@@ -1,0 +1,17 @@
+What is the structure of a C Program? [2][5]
+Answer:
+PREPROCESSOR DIRECTIVES
+global variables declaration
+return_type main(arguments) e.g. void main(void)
+{
+variable declaration
+CODE
+return 0;
+}
+return_type function_name(argument)
+{
+variable declaration
+CODE
+return return_type;
+}
+ 

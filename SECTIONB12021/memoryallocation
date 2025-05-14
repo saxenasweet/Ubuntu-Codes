@@ -1,0 +1,35 @@
+Memory Allocation - >two ways
+Static Memory Allocation
+Dynamic Memory Allocation
+
+Static Memory Allocation -> memory to be allocated to variables is fixed at compile time
+Dynamic Memory Allocation -> memory to be allocated to variables is fixed at run time
+
+a.c ->gcc (static memory allocation)->run or execute your code a.out (dynamic memory allocation)
+in static memory allocation - > memory is fixed , you cant change it
+in dynamic memory allocation -> memory is allocated on demand, you can reallocate and even deallocate (free) memory at run time
+
+int a[10] - At compile time , since an int takes 4 bytes so when the program runs 40 bytes is allocated - > 40 bytes stay allocated till 
+the programs does not stop/end
+int *a;
+a=(int *)malloc(40); -> Dynamic memory allocation in which when program runs 40 bytes is allocated , however you can reallocate i.e.
+increase or decrease the amount of memory allocated during run time by using realloc
+a=(int *)realloc(8) -> memory is reduced from storing 10 integers to 2 integers
+
+Dynamic memory allocation is useful to allocate memory optimaly (efficiently)
+Static memory allocation wastes memory (over provisioning)
+
+You can also free up the memory in dynamic memory allocation by using free()
+Dynamic Memory Allocation is done using four functions:
+
+1.malloc()
+2.calloc()
+3.realloc()
+4.free()
+
+malloc and calloc both allocate memory dynamically but the difference is:
+malloc() takes 1 argument where as calloc() takes 2 arguments
+malloc() does not initialize the memory where as calloc() does initialize the memory
+realloc() will re allocate memory which was allocated before by either malloc() or calloc()
+free() will free up the memory i.e. returns the memory back to the OS allocated earlier by malloc() or calloc()
+

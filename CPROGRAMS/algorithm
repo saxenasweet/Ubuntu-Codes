@@ -1,0 +1,30 @@
+Algorithm - a step by step textual description of a problem
+
+Algorithm : Add 2 numbers (integers(-1,-2,3,4,0), Floating (7.6), -> Real Complex Numbers (2+3i)
+Step 1: Input A (integer)
+Step 2: Input B
+Step 3: Let C = A + B
+Step 4:  Print C
+Step 5: End
+
+Characteristics of an Algorithm
+1. It is free from any programming language construct 
+2. It is easy to understand.
+3. It has finite number of steps (Finiteness)
+4. It should give the correct result (Definiteness)
+
+#include<stdio.h>
+void main(void)
+{
+int a,b,c; // a,b,c are integer variables
+scanf("%d %d",&a,&b); //%d - data type is integer
+c=a+b;
+printf("%d",c);
+}
+
+Space - Time Complexity - Tradeoff
+1. Space - Memory (RAM) - bytes
+OR 
+2. Processing Time (CPU)  - seconds
+Mathematical Notations:
+BIG O Notation (O)
